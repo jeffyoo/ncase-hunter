@@ -1,0 +1,24 @@
+{
+  "name": "reddit_bot",
+  "version": "1.0.0",
+  "description": "Parses through /r/hardwareswap and finds listings for the computer case, NCASE M1 v5 in silver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffyoo/ncase-hunter.git"
+  },
+  "author": "Jeffrey Yoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffyoo/ncase-hunter/issues"
+  },
+  "homepage": "https://github.com/jeffyoo/ncase-hunter#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "snoostorm": "0.0.5",
+    "snoowrap": "^1.15.2"
+  }
+}
