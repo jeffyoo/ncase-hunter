@@ -14,12 +14,13 @@ const r = new Snoowrap({
 const client = new Snoostorm(r);
 
 const streamOpts = {
-    subreddit: 'all',
+    subreddit: 'hardwareswap',
     results: 25
 };
 
 const comments = client.CommentStream(streamOpts);
 
 comments.on('comment', (comment) => {
+    console.log('-------------------------------------')
     console.log(comment);
 });
